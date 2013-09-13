@@ -4,13 +4,13 @@ html,body{padding:0;margin:0;font-family:Arial,sans-serif;min-width:320px}
 section h2{font-size:41px;font-family:'Open Sans',Arial;font-weight:400;color:#009dd2;text-transform:none;margin:0;padding:50px 0 30px 0}
 @media (max-width:430px){section h2{font-size:30px}}@media (max-width:300px){section h2{font-size:26px}}.container{max-width:900px;margin:0 auto;padding:0 15px}
 header{background:#f2f2f2;background:-moz-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(34%, #f6f6f6), color-stop(100%, #e5e5e5));background:-webkit-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:-o-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:-ms-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:linear-gradient(to bottom, #f6f6f6 34%, #e5e5e5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e5e5e5', GradientType=0);border-bottom:1px solid #ccc;height:41px}
-header ul{display:none;list-style:none;padding:0;margin:0}
+header ul{display:none;list-style:none;padding:0;margin:0}u
 header ul li{display:inline;margin-right:40px}
 header ul li a{font-size:18px;font-family:'Open Sans',Arial;font-weight:400;color:#444;text-transform:none;transition:color .35s ease-out;text-decoration:none}
 header ul li a:hover{color:#000;transition:color .05s ease-out}
 header .aux{position:absolute;right:0;top:0;width:100%}
 header .social{float:left;display:none;width:100px;border-right:1px solid #bbb}
-header .social .googleplus,header .social .twitter{background-image:url("../images/sprite-social.png");height:33px;width:33px;display:block;float:left;margin-top:27px;opacity:.7;transition:opacity .35s ease-out}
+header .social .googleplus,header .social .twitter{background-image:url("sprite-social.png");height:33px;width:33px;display:block;float:left;margin-top:27px;opacity:.7;transition:opacity .35s ease-out}
 header .social .googleplus:hover,header .social .twitter:hover{opacity:1;transition:opacity .05s ease-out}
 header .social .twitter{margin-left:15px;background-position:-47px 0}
 header .register{text-align:center;line-height:41px;display:block}
@@ -35,7 +35,7 @@ header .register a{display:block;height:41px;text-decoration:none;font-size:16px
 #whyattend .intro{color:#c5c5c5;padding-bottom:30px}
 #whyattend .intro a{color:#fff}
 #gdglogo { display:none;}
-@media (min-width:700px){#gdglogo { float: right; height: 250px; position: relative; top: -19px;}#whyattend .intro{font-weight:100;font-size:24px;padding-bottom:50px} #whyattend h2{padding-bottom:20px} #whyattend ul{margin:0} #whyattend ul li{display:block;float:left;width:40%;margin:0} #whyattend ul li:nth-child(2n-1){clear:both}}.gallery{position:relative;overflow:hidden;display:block;margin-top:-184px;padding-top:50px;height:245px}
+@media (min-width:700px){#gdglogo { display:block; float: right; height: 250px; position: relative; top: -19px;}#whyattend .intro{font-weight:100;font-size:24px;padding-bottom:50px} #whyattend h2{padding-bottom:20px} #whyattend ul{margin:0} #whyattend ul li{display:block;float:left;width:40%;margin:0} #whyattend ul li:nth-child(2n-1){clear:both}}.gallery{position:relative;overflow:hidden;display:block;margin-top:-184px;padding-top:50px;height:245px}
 .gallery img{width:100%;max-width:900px}
 figure{padding:0;margin:0;width:100%;text-align:center}
 figcaption{padding-top:20px;width:100%;text-align:center;font-size:18px;color:#888;font-style:italic}
