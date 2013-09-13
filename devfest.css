@@ -34,7 +34,7 @@ header .register a{display:block;height:41px;text-decoration:none;font-size:16px
 #whyattend ul li:nth-child(2n){padding-right:0}
 #whyattend .intro{color:#c5c5c5;padding-bottom:30px}
 #whyattend .intro a{color:#fff}
-#gdglogo { float: right; height: 50px; position: relative; top: -19px;}
+#gdglogo { display:none;}
 @media (min-width:700px){#gdglogo { float: right; height: 250px; position: relative; top: -19px;}#whyattend .intro{font-weight:100;font-size:24px;padding-bottom:50px} #whyattend h2{padding-bottom:20px} #whyattend ul{margin:0} #whyattend ul li{display:block;float:left;width:40%;margin:0} #whyattend ul li:nth-child(2n-1){clear:both}}.gallery{position:relative;overflow:hidden;display:block;margin-top:-184px;padding-top:50px;height:245px}
 .gallery img{width:100%;max-width:900px}
 figure{padding:0;margin:0;width:100%;text-align:center}
