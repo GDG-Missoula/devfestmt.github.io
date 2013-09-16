@@ -1,7 +1,8 @@
-html,body{padding:0;margin:0;font-family:Arial,sans-serif;min-width:320px}
+html,body{padding:0;margin:0;font-family:Arial,sans-serif;min-width:320px;}
+* { font-family:'Open Sans',Arial; }
 .ir{text-indent:-999em;overflow:hidden}
 .clear:after{content:'';clear:both;display:block}
-section h2{font-size:41px;font-family:'Open Sans',Arial;font-weight:400;color:#009dd2;text-transform:none;margin:0;padding:50px 0 30px 0}
+section h2{font-size:41px;font-family:'Open Sans',Arial;font-weight:400;color: #111;text-transform:none;margin:0;padding:50px 0 30px 0}
 @media (max-width:430px){section h2{font-size:30px}}@media (max-width:300px){section h2{font-size:26px}}.container{max-width:900px;margin:0 auto;padding:0 15px}
 header{background:#f2f2f2;background:-moz-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(34%, #f6f6f6), color-stop(100%, #e5e5e5));background:-webkit-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:-o-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:-ms-linear-gradient(top, #f6f6f6 34%, #e5e5e5 100%);background:linear-gradient(to bottom, #f6f6f6 34%, #e5e5e5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e5e5e5', GradientType=0);border-bottom:1px solid #ccc;height:41px}
 header ul{display:none;list-style:none;padding:0;margin:0}
@@ -17,17 +18,38 @@ header .register{text-align:center;line-height:41px;display:block}
 header .register a{display:block;height:41px;text-decoration:none;font-size:16px;font-family:'Open Sans',Arial;font-weight:800;color:#888;text-transform:uppercase}
 @media (min-width:835px){header,header .aux,header .social,header .register{height:88px} header .aux{display:block;width:300px} header .social{display:block} header ul{display:block;float:left} header ul li{line-height:88px} header .register{border-left:1px solid #fff;float:left;text-align:center;line-height:100%;display:block} header .register a{display:block;width:195px;height:100%;text-decoration:none;font-size:18px;font-family:'Open Sans',Arial;font-weight:800;color:#444;text-transform:uppercase;line-height:88px}}#hero{clear:both;position:relative;margin-bottom:1px}
 
+/*
 #hero:after{content:'';height:18px;border-top:1px solid #3f88ca;border-bottom:1px solid #3f88ca;background:#63a7e0;background:-moz-linear-gradient(top, #63a7e0 0, #1978c7 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #63a7e0), color-stop(100%, #1978c7));background:-webkit-linear-gradient(top, #63a7e0 0, #1978c7 100%);background:-o-linear-gradient(top, #63a7e0 0, #1978c7 100%);background:-ms-linear-gradient(top, #63a7e0 0, #1978c7 100%);background:linear-gradient(to bottom, #63a7e0 0, #1978c7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63a7e0', endColorstr='#1978c7', GradientType=0);width:100%;display:block;bottom:0;position:absolute}
-
+*/
 #hero{height:225px}
 #hero .hero-text{height:auto;padding-top:30px}
 #hero h1{font-size:31px;font-family:'Open Sans',Arial;font-weight:400;color:#414141;text-transform:none;text-align:center;line-height:100%;letter-spacing:-0.04em;margin:0;margin-bottom:2px}
 #hero h2{font-size:11px;font-family:'Open Sans',Arial;font-weight:800;color:#45a944;text-transform:uppercase;text-align:center;line-height:100%;letter-spacing:.04em;margin:0;padding:0;font-size:11px}
 #hero p.datelocation{font-size:18px;font-family:'Open Sans',Arial;font-weight:400;color:#59a0dd;text-transform:uppercase;text-align:center;line-height:120%;width:100%;border-top:1px solid #ccc;padding-top:8px;margin:25px 0 0 0}
 #hero p.allonline{font-size:14px;font-weight:bold;color:#444;text-align:center}
-#hero:after{height:18px}
+/*#hero:after{height:18px}*/
 
-@media (min-width:500px){#hero{height:265px} #hero .hero-text{height:auto;padding-top:40px} #hero h1,#hero h2,#hero p.datelocation,#hero p.allonline{text-align:center;width:100%} #hero h1{font-size:50px} #hero h2{font-size:18px} #hero:after{height:30px}}@media (min-width:850px){#hero{/*height:474px*/} #hero .hero-text{height:300px;/*padding-top:108px*/} #hero h1,#hero h2,#hero p.datelocation,#hero p.allonline{text-align:left} #hero h1{font-size:60px} #hero h2{font-size:22px} #hero p.datelocation{width:70%;font-size:16px} #hero p.allonline{font-size:15px} #hero .container{background:url("../images/chrome-logo-big.jpg") no-repeat right 70px} #hero:after{height:47px}}#whyattend{background:#222;/*padding-bottom:220px;*/color:#999;font-size:18px}
+#blue {
+ border-top:1px solid #3f88ca;border-bottom:1px solid #3f88ca;
+ background:#63a7e0;
+ background:-moz-linear-gradient(top, #63a7e0 0, #1978c7 100%);
+ background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #63a7e0), color-stop(100%, #1978c7));
+ background:-webkit-linear-gradient(top, #63a7e0 0, #1978c7 100%);
+ background:-o-linear-gradient(top, #63a7e0 0, #1978c7 100%);
+ background:-ms-linear-gradient(top, #63a7e0 0, #1978c7 100%);
+ background:linear-gradient(to bottom, #63a7e0 0, #1978c7 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63a7e0', endColorstr='#1978c7', GradientType=0);
+ width:100%;
+ 
+}
+#blue p { font-size: 2em; color:white;}
+@media (min-width:500px){#hero{height:265px} #hero .hero-text{height:auto;padding-top:40px} #hero h1,#hero h2,#hero p.datelocation,#hero p.allonline{text-align:center;width:100%} #hero h1{font-size:50px} #hero h2{font-size:18px} 
+#hero:after{height:30px}
+}
+@media (min-width:850px){
+	#hero{/*height:474px*/} #hero .hero-text{height:300px;/*padding-top:108px*/} #hero h1,#hero h2,#hero p.datelocation,#hero p.allonline{text-align:left} #hero h1{font-size:60px} #hero h2{font-size:22px} #hero p.datelocation{width:70%;font-size:16px} #hero p.allonline{font-size:15px} #hero .container{background:url("../images/chrome-logo-big.jpg") no-repeat right 70px} #hero:after{height:47px}
+}
+#whyattend{background:#222;/*padding-bottom:220px;*/color:#999;font-size:18px}
 #whyattend h2{color:#fff;padding-bottom:10px}
 #whyattend ul{width:100%;list-style:none;margin:0 auto;padding:0}
 #whyattend ul li{background:url("../images/sprite-bullets.png") no-repeat 13px 7px;width:auto;float:none;padding:0 4% 30px 40px}
