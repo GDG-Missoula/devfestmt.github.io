@@ -91,4 +91,4 @@ figcaption{padding-top:20px;width:100%;text-align:center;font-size:18px;color:#8
 #conversation .text{display:inline-block;text-align:center;line-height:42px;margin:0}
 #conversation .googleplus,#conversation .twitter{line-height:42px;display:inline-block;width:42px;height:42px;background:url("sprite-social.png") no-repeat 0 bottom}
 #conversation .twitter{margin-left:15px;background-position:-47px bottom}
-@media (min-width:650px){#conversation .text{display:block;float:left} #conversation .googleplus,#conversation .twitter{display:block;float:left} #conversation{font-size:21px;padding-bottom:125px} #conversation .container{width:348px} #conversation .googleplus{margin-left:30px}}
+@media (min-width:650px){#conversation .text{display:block;float:left} #conversation .googleplus,#conversation .twitter{display:block;float:left} #conversation{font-size:21px;padding-bottom:125px} #conversation .container{width:348px;text-align: center;} #conversation .googleplus{margin-left:30px}}
