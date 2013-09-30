@@ -6,12 +6,16 @@
   <meta name="description" content="Chrome Dev Summit">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="https://plus.google.com/111439872924209508980" rel="publisher">
-  <!--<link href="//www.google.com/images/icons/product/chrome-32.png" rel="icon" type="image/ico">-->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" type="text/css">
-  <link href="devfest.css" rel="stylesheet" type="text/css">
+  
+  <link href="devfest-min.css" rel="stylesheet" type="text/css">
   <meta itemprop="name" content="DevFest MT">
-  <meta itemprop="image" content="devsummit/images/chrome-dev-summit-masthead.png">
+  
+  <!-- <meta itemprop="image" content="devsummit/images/chrome-dev-summit-masthead.png"> -->
+  <!-- TODO Replace with an appropriate image -->
+
   <title>DevFest MT 2013</title>
+  
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,8 +24,8 @@
 
   ga('create', 'UA-98864-4', 'devfestmt.com');
   ga('send', 'pageview');
-
 </script>
+
 </head>
 <body>
   <header>
@@ -38,16 +42,14 @@
       <div class="aux">
         <div class="social">
           <div class="social-wrapper">
-
             <!--
             <div class="g-plusone" data-annotation="none"></div>
-
             <a href="https://twitter.com/share" class="twitter-share-button" data-text="Connect with Chrome engineers and web devs at Chrome Dev Summit." data-via="chromiumdev" data-count="none">Tweet</a>
             -->
           </div>
         </div>
         <div class="register">
-          <a href="http://devfestmt.eventbrite.com" target="_blank">
+          <a href="#buytickets">
             Get Tickets
           </a>
         </div>
@@ -55,131 +57,179 @@
     </div>
   </header>
 
-  <section id="hero">
-    <img src="gdgmso.png" id="gdglogo"/>
-    <div class="container hero-text">
-      
+  <section class="white">
+    <div class="container">
+      <img src="gdgmso.png" id="gdglogo"/>
       <h1>DevFest MT</h1>
-      <!--<h2>Connecting you with Chrome Engineers.</h2>-->
-      <p class="datelocation">
+      <p class="subtitle">
         Missoula, MT<br/>
         <span itemprop="startDate" content="2013-11-2">November 2</span> - <span itemprop="endDate" content="2013-11-3">3</span>, 2013.
       </p>
-
+      <div class="col-md-5">
+        <br>
+        <p>
+          A local effort by
+          <li>The <a href="http://gplus.to/gdgmso">Missoula Google Developer Group (GDG)</a></li>
+          <li>The UM Computer Science Club</li>
+          <li>The UM Entrepreneurship Club</li>
+        </p>
+      </div>
     </div>
   </section>
 
-  <section id="blue">
+  <section class="gray">
     <div class="container">
-      <h2>Sponsored By</h2>
-      <div class="intro">
-        <p itemprop="description">
-          Google &amp; The University of Montana
-        </p>
-      </div>
-    <div>
-  </section>
 
-  <section id="whyattend">
-    <div class="container">
       <h2>Why Attend?</h2>
+        <a name="whyattend"></a>
+        <div class="pull-right prizes">
+          
+        </div>
 
-      <div class="intro">
         <p itemprop="description">
           Connect with developers, designers, entrepreneurs, teachers and students.
           We're getting together to push tech forward in Missoula and in education.
         </p>
-        <p>We’ll host a full day of tech talks on November 2nd from 8AM to 6PM. Then join up later that evening around 8PM for a casual after party. 
+        <p>
+          We’ll host a full day of tech talks on November 2nd from 8AM to 6PM. Then join up later that evening around 8PM for a casual after party.
+          On day 2 put your newfound knowledge to work building your first or next app. We'll have guided code labs and plenty of time for hacking. 
+          Learn how to code something cool!
+        </p>
 
-On day 2 put your newfound knowledge to work building your first or next app. We'll have guided code labs and plenty of time for hacking. Learn how to code something cool. Prizes will be given out for the coding competition. (More prize and competition details to be announced. Stay tuned.)
- 
- 
-Light breakfast, coffee and lunch is included both days along with snacks in the afternoon. </p>
+        <h4>Admission Includes:</h4>
+        <p>
+          <ul>
+            <li>A DevFest T-shirt, lanyard and badge</li>
+            <li>Light breakfast, coffee and <b>lunch</b> is included both days, along with snacks in the afternoon. </li>
+            <li>Great networking opportunities</li>
+            <li><b>Prizes</b> on Day 1 will be randomly drawn from paid and present attendees.</li>
+            <li>Day 2 prizes will random and merit based on the coding competition. </li>
 
-        <p><a href="http://devfestmt.eventbrite.com" target="_blank">Register for tickets</a>.</p>
-      </div>
-<!--
-      <ul class="clear">
-        <li>Master the art of web performance.</li>
-        <li>Collaborate with Chrome engineers and other attendees.</li>
-        <li.>Learn how to build for a multi-device world.</li>
-        <li>Explore web APIs and their implementations in Chrome.</li>
-        <li>Enhance your productivity with tested workflows.</li>
-        <li>Guide the evolution of the web.</li>
-      </ul>
-      -->
+            <li>(More prize and competition details to be announced. Stay tuned.)</li>
+          </ul>
+        </p>
+
     </div>
   </section>
-<!--
-  <aside class="gallery">
-    <figure>
-      <img src="devsummit/images/chrome-team-fireside.jpg" alt="Chrome Mobile Summit 2013">
-      <figcaption>The Chrome Team Fireside Chat at Google I/O 2013</figcaption>
-    </figure>
-  </aside>
--->
-  <section id="sessions">
+
+  <section class="blue">
     <div class="container">
       <h2>Sessions</h2>
+      <a name="sessions"></a>
+        <div class="speaker-box bordered-shadowed" >
+            <div class="speaker-avatar">
+                <img class="img-circle" src="irizarry.jpg" alt="Rob Irizarry">
+            </div>
+  
+            <div class="speaker-name"><a href="https://plus.google.com/107810501622053675085" target="_new">Rob Irizarry</a></div>
+            <div class="speaker-company text-muted">CodeMontana.org</div>
+            <div class="speaker-company">
+              I've spent the last three decades working with hardware and software technology in the finance, garment and automotive industries & have spent the last decade engaged in pioneering multi-tenant Software as a Service for the Customer Experience market.  I've worked in and with public and private sector organizations from 10 people to the Fortune 10 building systems, processes and teams in the United States, Europe, Asia, the Middle East and South Africa and spent a decade living in Asia.
+            </div>
 
-      <div class="session">
-        <h3>Keynote</h3>
-        <div class="headshots">
-          <img src="irizarry.jpg" alt="Rob Irizarry">
+            <div class="session-info">
+                <h5>Code Montana</h5>
+                <p>This presentation tells the story of CodeMontana - 
+                  How it got started & how it scaled up from one student at Bozeman High School that wanted to learn software development to a statewide program to teach 1,000 Montana High School students programming.  
+                  The presentation will include faculty and students from the program, each telling part of the story...</p>
+            </div>
         </div>
-        <div class="session-inner">
-          <p class="speakers">
-            <a href="https://plus.google.com/107810501622053675085" target="_blank">Rob Irizarry</a>
-          </p>
-          <p>
-            
-          </p>
-        </div>
-      </div>
 
-      <div class="session">
-        <h3>Khan Academy</h3>
-        <div class="headshots">
-          <img src="pamela.jpg" alt="Pamela Fox">
+        <div class="speaker-box bordered-shadowed">
+          <div class="speaker-inner-box">
+            <div class="speaker-avatar">
+              <img class="img-circle" src="pamela.jpg" alt="Pamela Fox" width="126">
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name"><a href="https://plus.google.com/104906919451670502090" target="_new">Pamela Fox</a></div>
+              <div class="speaker-company text-muted">Khan Academy</div>
+              <div class="speaker-company">
+                Pamela Fox loves to learn, teach, create, and every combination of those. During the day, she creates the programming curriculum for Khan Academy, to teach the next generation of programmers. On the side, she teaches web development classes for the GirlDevelopIt San Francisco chapter. Before that, she was a frontend engineer at Coursera, a developer advocate at Google, and a graduate from USC's Computer Science Department.
+              </div>
+            </div>
+          </div>
+          <div class="session-info">
+            <h5>Teaching Programming Online</h5>
+            <p>Pamela Fox will take you behind the scenes of the programming lessons on Khan Academy and show you how we are using modern web technologies like &lt;canvas&gt;, Web Workers, &lt;audio&gt;, and getUserMedia to teach the next generation of programmers.</p>
+          </div>
         </div>
-        <div class="session-inner">
-          <p class="speakers">
-            <a href="https://plus.google.com/104906919451670502090" target="_blank">Pamela Fox</a>
-          </p>
-          <p>
-            
-          </p>
-        </div>
-      </div>
 
-      <div class="session">
-        <h3>Coding Kickstart</h3>
-        <div class="headshots">
-          <img src="cassens.jpg" alt="Michael Cassens">
-        </div>
-        <div class="session-inner">
-          <p class="speakers">
-            <a href="https://plus.google.com/102693277822042486867" target="_blank">Michael Cassens</a>
-          </p>
-          <p></p>
-        </div>
-      </div>
+        <div class="speaker-box bordered-shadowed">
+          <div class="speaker-inner-box">
+            <div class="speaker-avatar">
+              <img class="img-circle" src="horesji.jpg" alt="Dr. Martin Horejsi" width="126">
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name"><a>Dr. Martin Horejsi</a></div>
+              <div class="speaker-company text-muted">Khan Academy</div>
+              <div class="speaker-company">
+                Dr. Martin Horejsi, currently an Associate Professor in Instructional Technology at the University of Montana in Missoula. 
 
-      <div class="session">
-        <h3>Google Glass</h3>
-        <div class="headshots">
-          <img src="kruger.jpg" alt="Jason Kruger">
+Horejsi's research interests include classroom applications of computer peripherals and mobile devices, digital imaging as an assessment tool, and the Internet and presentation applications in the elementary school classroom. He has made a life of using, watching, and envisioning how great education can be, especially with technology driving the dreams of teachers and students alike. He is a columnist and blogger for the National Science Teacher’s Association addressing technology and its impact across education, as well as blogging for EdView 360. He teaches many undergraduate and graduate courses about and with technology including many online courses. I am the former director of the Montana Schools e-Learning Consortium (now the Montana Digital Academy).
+              </div>
+            </div>
+          </div>
+          <div class="session-info">
+            <h5>Future of Education Panel</h5>
+            <p>This panel discussion bring together some key players in the educational landscape. Some popular teaching models, especially those that apply or use technology are obsolete and can not longer be fixed. They are simply outdated. This discussion will jump headfirst into the critical issues facing the teaching/learning dynamic with special attention to technology and working with innovative students who often possess interests and skills beyond those of the teacher and curriculum.</p>
+          </div>
         </div>
-        <div class="session-inner">
-          <p class="speakers">
-            <a href="https://plus.google.com/102301603326380999009" target="_blank">Jason Kruger</a>
-          </p>
-          <p></p>
-        </div>
-      </div>
 
+
+        <div class="speaker-box bordered-shadowed">
+          <div class="speaker-inner-box">
+            <div class="speaker-avatar">
+              <img class="img-circle" src="cassens.jpg" alt="Michael Cassens" width="126">
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name"><a href="https://plus.google.com/102693277822042486867" target="_new">Michael Cassens</a></div>
+              <div class="speaker-company text-muted">University of Montana</div>
+              <div class="speaker-company">
+                
+              </div>
+            </div>
+          </div>
+          <div class="session-info">
+            <h5>Coding Kickstart</h5>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="speaker-box bordered-shadowed">
+          <div class="speaker-inner-box">
+            <div class="speaker-avatar">
+              <img class="img-circle" src="kruger.jpg" alt="Jason Kruger" width="126">
+            </div>
+            <div class="speaker-info">
+              <div class="speaker-name"><a href="https://plus.google.com/102301603326380999009" target="_new">Jason Kruger</a></div>
+              <div class="speaker-company text-muted">University of Montana</div>
+              <div class="speaker-company">
+                
+              </div>
+            </div>
+          </div>
+          <div class="session-info">
+            <h5>Google Glass</h5>
+            <p>Jason is part of the <a href="http://www.google.com/glass/start/what-it-does/">Glass Explorer Program</a>. <br>He'll introduce you to Google Glass, what it can do, and how you can write programs for it.</p>
+          </div>
+        </div>
+
+      <div class="clear"></div>
       <p class="moresoon">More session information coming soon!</p>
     </div>
+  </section>
+
+
+  <section class="gray">
+    <div class="container">
+      <h2>Sponsored By</h2>
+      <ul>
+        <li>Google</li>
+        <li><a href="http://coehs.umt.edu/">The Phyllis J. Washington College of Education and Human Sciences</a></li>
+        <li>The University of Montana Bookstore</li>
+        <li><a href="http://k8tr.com/">REPLIK8TR MakerSpace</a></li>
+      </ul>
+    <div>
   </section>
 
   <section id="travelandlocation">
@@ -194,12 +244,9 @@ Light breakfast, coffee and lunch is included both days along with snacks in the
 
       <ul>
         <li><h1>Missoula Montana</h1>
-        The Education Building<br>
+        Phyllis J Washington Education Center<br>
         University of Montana</li>
-<!--
-        <li><h1>Also, hello streaming live!</h1>
-          Chrome Dev Summit is a great opportunity to rub elbows with fellow web developers, Chrome engineers, and Chrome PMs. This is a limited-space event, and we know not everyone can travel. In order to provide the widest access to the content, we'll stream the presentations live and post to YouTube afterwards. You get the awesome content, but none of the elbow-rubbing (which is good because some people don't wash their elbows. True story...)</li>
--->
+
       </ul>
 
       <h2>Hotels</h2>
@@ -224,24 +271,28 @@ Light breakfast, coffee and lunch is included both days along with snacks in the
   </section>
 
 
-  <section id="format">
+  <section class="blue">
     <div class="container">
       <h2>After Party</h2>
-
       <p>
         Nov 2nd is Día de Muertos (Day of the Dead). Watch the parade downtown and join us for a casual after party. (More details soon)
-        
       </p>
-
     </div>
   </section>
   
-  
-<!--
-  <section id="register">
-    <a href="http://goo.gl/2tD8wn" target="_blank">Help us plan</a>
+  <section class="white">
+    <div class="container">
+      <h2>
+        Buy Tickets
+      </h2>
+
+      <a name="buytickets"></a>
+
+      <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=8243355097&ref=etckt&v=2" frameborder="0" height="485" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+      </div>
+    </div>
   </section>
--->
+
   <section id="conversation">
     <div class="container">
       <div class="text">
@@ -274,6 +325,7 @@ Light breakfast, coffee and lunch is included both days along with snacks in the
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
+
 
 </body>
 </html>
